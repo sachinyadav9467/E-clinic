@@ -1,0 +1,53 @@
+.search_doctor_card{
+    box-sizing: border-box;
+    margin:8% auto auto 0px;
+    color:white;
+}
+.search_doctor_card >h1{
+        text-align: center;
+        font-size: 40px;
+        background: -webkit-linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+}
+.search_doctor_card > select,.time_selector{
+    width:46vw;
+    height:40px;
+    border: 1.5px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 2% auto;
+    background-color: rgba(245, 237, 237, 0.877);
+}
+.time_selector >input{
+    background-color: rgba(245, 237, 237, 0.877);
+    width:50%;
+}
+.time_selector >select{
+    width:50%;
+}
+.search_doctor_card >button{
+    border-color: black;
+    border-radius: 20px;
+    display: block;
+    margin: 2% auto;
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color:white;
+    background-color: black;
+}
+.search_doctor_card >button:hover{
+    color:black;
+    border: white;
+    background-color: white;
+}
+#login_signup_page{
+    display:none;
+}
+::placeholder{
+    color:black;
+}
