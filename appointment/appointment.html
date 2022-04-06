@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<meta content="width=device-width, initial-scale=1, maximum-scale=1, doctor-scalable=no" name="viewport">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="appointment.css">
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<div class="container-fluid">
+		  <a class="navbar-brand" href="/index.html">E-Clinic</a>
+		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+			  <li class="nav-item">
+				<a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">Appointments</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">Blog</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="tel:1068">
+				  <strong>&#128222; Emergency Call:1068</strong>
+				</a>
+			  </li>
+			</ul>
+		  </div>
+		</div>
+	  </nav>
+	<section class="main-content">
+		<div class="container">
+			<table class="table">
+				<thead>
+					<tr>
+						<th>Doctor</th>
+						<th>Status</th>
+						<th>Appointment</th>
+						<th>Phone</th>
+						<th>Patient</th>
+						<th>Actions</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>
+							<div class="doctor-info">
+								<div class="doctor-info__img">
+									<img src="img/doctor3.jpg" alt="Doctor Img">
+								</div>
+								<div class="doctor-info__basic">
+									<h5 class="mb-0">vikash</h5>
+									<p class="text-muted mb-0">21 yrs, Male</p>
+								</div>
+							</div>
+						</td>
+						<td>
+							<span class="btn btn-success">Confirmed</span>
+						</td>
+						<td>
+							<h6 class="mb-0">06:00 PM</h6>
+							<small>2 Feb 2021</small>
+						</td>
+						<td>
+							<h6 class="mb-0">+91 9876543215</h6>
+							<a href="#!"><small>Contact</small></a>
+						</td>
+						<td>
+							<h6 class="mb-0">User</h6>
+						</td>
+						<td>
+							<div class="dropdown open">
+								<a href="#!" class="px-2" id="triggerId1" data-toggle="dropdown" aria-haspopup="true"
+										aria-expanded="false">
+											<i class="fa fa-ellipsis-v"></i>
+								</a>
+								<div class="dropdown-menu" aria-labelledby="triggerId1">
+									<a class="dropdown-item" href="#"><i class="fa fa-pencil mr-1"></i> Edit</a>
+									<a class="dropdown-item text-danger" href="#"><i class="fa fa-trash mr-1"></i> Delete</a>
+								</div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<div class="doctor-info">
+								<div class="doctor-info__img">
+									<img src="img/doctor2.jpg" alt="User Img">
+								</div>
+								<div class="doctor-info__basic">
+									<h5 class="mb-0">sachin</h5>
+									<p class="text-muted mb-0">21 yrs, Male</p>
+								</div>
+							</div>
+						</td>
+						<td>
+							<span class="btn btn-warning">Pending</span>
+						</td>
+						<td>
+							<h6 class="mb-0">06:00 PM</h6>
+							<small>2 Feb 2021</small>
+						</td>
+						<td>
+							<h6 class="mb-0">+91 9876543215</h6>
+							<a href="#!"><small>Contact</small></a>
+						</td>
+						<td>
+							<h6 class="mb-0">User</h6>
+						</td>
+						<td>
+							<div class="dropdown open">
+								<a href="#!" class="px-2" id="triggerId1" data-toggle="dropdown" aria-haspopup="true"
+										aria-expanded="false">
+											<i class="fa fa-ellipsis-v"></i>
+								</a>
+								<div class="dropdown-menu" aria-labelledby="triggerId1">
+									<a class="dropdown-item" href="#"><i class="fa fa-pencil mr-1"></i> Edit</a>
+									<a class="dropdown-item text-danger" href="#"><i class="fa fa-trash mr-1"></i> Delete</a>
+								</div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<div class="doctor-info">
+								<div class="doctor-info__img">
+									<img src="img/doctor1.jpg" alt="User Img">
+								</div>
+								<div class="doctor-info__basic">
+									<h5 class="mb-0">mayank</h5>
+									<p class="text-muted mb-0">21 yrs, Male</p>
+								</div>
+							</div>
+						</td>
+						<td>
+							<span class="btn btn-danger">Canceled</span>
+						</td>
+						<td>
+							<h6 class="mb-0">06:00 PM</h6>
+							<small>2 Feb 2021</small>
+						</td>
+						<td>
+							<h6 class="mb-0">+91 9876543215</h6>
+							<a href="#!"><small>Contact</small></a>
+						</td>
+						<td>
+							<h6 class="mb-0">User</h6>
+						</td>
+						<td>
+							<div class="dropdown open">
+								<a href="#!" class="px-2" id="triggerId1" data-toggle="dropdown" aria-haspopup="true"
+										aria-expanded="false">
+											<i class="fa fa-ellipsis-v"></i>
+								</a>
+								<div class="dropdown-menu" aria-labelledby="triggerId1">
+									<a class="dropdown-item" href="#"><i class="fa fa-pencil mr-1"></i> Edit</a>
+									<a class="dropdown-item text-danger" href="#"><i class="fa fa-trash mr-1"></i> Delete</a>
+								</div>
+							</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</section>
+
+	
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
